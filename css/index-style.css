@@ -83,6 +83,11 @@ body {
 
 
 /*MAIN*/
+
+
+
+
+/*slider*/
 #slider { /*положение слайдера*/
     position: relative;
 	text-align: center;
@@ -205,9 +210,6 @@ label, a{ /*при наведении на стрелки или переклю�
 
 .twh {
 	background-image: url(../img/img-ozv/The_Owl_House/the_owl_house_2.jpg);
-
-	
-
 }
 
 .image-mk {
@@ -224,4 +226,101 @@ label, a{ /*при наведении на стрелки или переклю�
 
 .image-adrian {
 	background-image: url(../img/img-ozv/andian/adrian-uk.jpg);
+}
+/*slider*/
+
+
+
+
+
+/*section1*/
+.section1 {
+	margin: 25px 0;
+}
+
+.people {
+	height: 350px;
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+	justify-content: space-between;
+}
+
+.text_l_people {
+	width: 500px;
+	align-items: center;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.name_people {
+	
+}
+
+.image_right_people {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.img_right_people {
+	
+}
+
+.text_people {
+
+}
+/*section1*/
+
+
+
+
+/*MAIN*/
+
+
+
+
+
+
+/*footer*/
+.footer {
+	height: 100px;
+	background-color: #343A40;
+	
+}
+
+.contact {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contacts {
+	margin: auto 0;
+}
+
+.social_footer{
+	
+}
+
+.social_links {
+	text-decoration: none;
+}
+
+.mr5 {
+	margin-right: 10px;
+}
+
+.size {
+	width: 25px;
+	height: 25px;
+}
+
+.cont_link {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 21px;
 }
