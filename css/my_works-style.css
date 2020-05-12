@@ -8,8 +8,8 @@ body {
 
 /** {
 	border: 1px red solid;
-}*/
-
+}
+*/
 
 
 
@@ -41,11 +41,13 @@ body {
 
 .img-logo {
 	border-radius: 20px;
+	height: 45px;
+	width: 45px;
 }
 
 .nav-contacts {
 	height: 70px;
-	width: 260px;
+	width: 220px;
 	margin-right: 3%;
 
 	align-items: center;
@@ -62,10 +64,14 @@ body {
 	padding-right: 5px;
 }
 
+.supports:hover {
+	background-color: #6E6E6E;
+}
+
 .support {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 23px;
+	font-size: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -74,7 +80,7 @@ body {
 .contact {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 23px;
+	font-size: 18px;
     color: #FFFFFF;
 	text-decoration: none;
 }
@@ -96,7 +102,7 @@ body {
 }
 
 .article {
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 }
 
@@ -107,7 +113,7 @@ body {
 }
 
 .opus_work {
-	width: 600px;
+	width: 480px;
 	flex-direction: column;
 	
 }
@@ -115,7 +121,7 @@ body {
 .name_work {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 28px;
+	font-size: 25px;
 	height: 25px;
 	
 
@@ -123,12 +129,13 @@ body {
 
 .opus_text_work {
 	float: left;
+	font-size: 14px;
 	height: 250px;
 }
 
 .video_yt_work{
 	align-items: center;
-	width: 560px;
+	width: 456px;
 
 }
 
@@ -156,7 +163,7 @@ body {
 }
 
 .contact {
-	width: 1200px;
+	width: 1100px;
 	height: 100px;
 	margin: 0 auto;
 
@@ -188,5 +195,5 @@ body {
 .cont_link {
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 21px;
+	font-size: 18px;
 }

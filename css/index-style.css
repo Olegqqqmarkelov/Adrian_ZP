@@ -14,7 +14,7 @@ body {
 
 
 .header {
-
+	height: 70px;
 }
 
 .nav-together {
@@ -27,8 +27,8 @@ body {
 }
 
 .logo {
-	height: 50px;
-	width: 50px;
+	height: 45px;
+	width: 45px;
 	margin-left: 3%;
 
 }
@@ -39,11 +39,13 @@ body {
 
 .img-logo {
 	border-radius: 20px;
+	height: 45px;
+	width: 45px;
 }
 
 .nav-contacts {
 	height: 70px;
-	width: 260px;
+	width: 220px;
 	margin-right: 3%;
 
 	align-items: center;
@@ -63,7 +65,7 @@ body {
 .support {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 23px;
+	font-size: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
@@ -72,7 +74,7 @@ body {
 .contact {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 23px;
+	font-size: 18px;
     color: #FFFFFF;
 	text-decoration: none;
 }
@@ -127,7 +129,7 @@ article img{ /*размер изображений слайдера*/
 #switch3:checked ~ #controls label:nth-child(4),
 #switch4:checked ~ #controls label:nth-child(5),
 #switch5:checked ~ #controls label:nth-child(1){
-	background: url('next.png') no-repeat; /*заливка фона картинкой без повторений*/
+	/*background: url('next.png') no-repeat;*/ /*заливка фона картинкой без повторений*/
 	float: right;
 	margin: 0 -84px 0 0; /*сдвиг вправо*/
 	display: block;
@@ -168,8 +170,8 @@ label, a{ /*при наведении на стрелки или переклю�
 #active label{ /*стиль отдельного переключателя*/
 	border-radius: 10px; /*скругление углов*/
 	display: inline-block; /*расположение в строку*/
-	width: 75px;
-	height: 15px;
+	width: 60px;
+	height: 13px;
 	background: #bbb;
 }
 
@@ -199,10 +201,10 @@ label, a{ /*при наведении на стрелки или переклю�
 
 .size-overflow {
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	background-color: #32383E;
 	align-items: center;
-	background-size: 900px 500px;	
+	background-size: 850px 450px;	
 	background-repeat: no-repeat;
 	background-position: center bottom;
 
@@ -255,7 +257,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .name_people {
-	
+	font-size: 22px;
 }
 
 .image_right_people {
@@ -268,7 +270,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 .text_people {
-
+	font-size: 15px;
 }
 /*section1*/
 
@@ -322,5 +324,5 @@ label, a{ /*при наведении на стрелки или переклю�
 .cont_link {
 	text-decoration: none;
 	color: #FFFFFF;
-	font-size: 21px;
+	font-size: 18px;
 }
