@@ -1,0 +1,84 @@
+.df {
+	display:flex;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/** {
+	border: 1px red solid;
+}*/
+
+
+
+
+
+
+/*HEADER*/
+
+
+
+
+
+/*MAIN*/
+
+
+
+
+
+
+/*MAIN*/
+
+
+
+
+
+
+/*footer*/
+.footer {
+	height: 100px;
+	background-color: #343A40;
+	
+}
+
+.contactt {
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contactss {
+	margin: auto 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+.social_footer{
+	
+}
+
+.social_links {
+	text-decoration: none;
+}
+
+.mr5 {
+	margin-right: 10px;
+}
+
+.size {
+	width: 25px;
+	height: 25px;
+}
+
+.cont_link {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+}

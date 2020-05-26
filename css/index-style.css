@@ -45,7 +45,7 @@ body {
 
 .nav-contacts {
 	height: 70px;
-	width: 220px;
+	width: 240px;
 	margin-right: 3%;
 
 	align-items: center;
@@ -55,11 +55,16 @@ body {
 .supports {
 	background-color: #8E8E8E;
 	border-radius: 5px;
+	width: 100px;
 
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 11px;
+	padding-bottom: 11px;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+.supports:hover {
+	background-color: #6E6E6E;
 }
 
 .support {
@@ -68,6 +73,12 @@ body {
 	font-size: 18px;
 	color: #FFFFFF;
 	text-decoration: none;
+}
+
+.contacts {
+	width: 79px;
+	padding-left: 24px;
+	background:#8E8E8E url("../img/button_header/user.svg") no-repeat top 9px left 4px;
 }
 
 
@@ -291,7 +302,7 @@ label, a{ /*при наведении на стрелки или переклю�
 	
 }
 
-.contact {
+.contactt {
 	width: 900px;
 	height: 100px;
 	margin: 0 auto;
@@ -300,8 +311,13 @@ label, a{ /*при наведении на стрелки или переклю�
 	justify-content: space-between;
 }
 
-.contacts {
+.contactss {
 	margin: auto 0;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+    color: #FFFFFF;
+	text-decoration: none;
 }
 
 .social_footer{
