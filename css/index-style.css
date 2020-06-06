@@ -342,3 +342,51 @@ label, a{ /*при наведении на стрелки или переклю�
 	color: #FFFFFF;
 	font-size: 18px;
 }
+
+
+
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+	.name_people {
+		font-size: 26px;
+	}
+
+	.text_people {
+		font-size: 17px;
+	}
+
+	.people {
+		width: 668px;
+	}
+
+	.img_right_people {
+		width: 200px;
+		height: 200px;
+	}
+
+	.text_l_people {
+		width: 400px;
+	}
+
+	.contactt {
+		width: auto;
+		height: 200px;
+	}
+
+	.footer {
+		height: 200px;
+	}
+
+	.contactss {
+		font-size: 28px;
+	}
+	.mr5 {
+		margin-right: 20px;
+	}
+}
+
