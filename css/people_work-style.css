@@ -12,3 +12,27 @@
 	height: 60px;
 	width: 283px;
 }
+
+
+@media (max-width: 768px) {
+	.footer {
+		height: auto;
+	}
+	.contactt {
+		width: auto;
+		height: 200px;
+	}
+	.contactss {
+		font-size: 28px;
+	}
+	.mr5 {
+		margin-right: 20px;
+	}
+}
+
+
+@media (max-width: 1920px) {
+	.main {
+		height: -webkit-fill-available;
+	}
+}

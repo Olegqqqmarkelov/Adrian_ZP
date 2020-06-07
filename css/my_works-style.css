@@ -149,7 +149,10 @@ body {
 	margin-bottom: 40px;
 }
 
-
+.iframe_works {
+	width: 456px;
+	height: 257px;
+}
 
 
 
@@ -207,4 +210,48 @@ body {
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+	.header {
+
+	}
+	.iframe_works {
+		width: 358px;
+    	height: 201px;
+	}
+	.article {
+		width: 100%;
+	}
+	.video_yt_work {
+		height: 201px;
+		width: 358px;
+	}
+	.opus_work {
+		height: 201px;
+		width: 325px;
+	}
+	.opus_text_work {
+		font-size: 13px;
+	}
+	.mb40 {
+		margin-bottom: 100px;
+	}
+	.contactt {
+		width: auto;
+		height: 200px;
+	}
+
+	.footer {
+		height: 200px;
+	}
+
+	.contactss {
+		font-size: 28px;
+	}
+	.mr5 {
+		margin-right: 20px;
+	}
+}
 }

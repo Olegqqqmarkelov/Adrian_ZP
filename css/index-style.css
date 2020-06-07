@@ -343,7 +343,17 @@ label, a{ /*при наведении на стрелки или переклю�
 	font-size: 18px;
 }
 
-
+@media (max-width: 1920px) {
+	.people {
+		width: 850px;
+	}
+	.text_people{
+		font-size: 17px;
+	}
+	.name_people {
+    	font-size: 27px;
+	}
+}
 
 
 @media (max-width: 992px) {
